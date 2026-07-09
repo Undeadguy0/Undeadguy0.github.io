@@ -1,0 +1,45 @@
+<section class="hero" id="hero">
+  <div class="container hero-inner">
+    <div class="hero-content">
+      {% if site.author.available %}
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        Открыт к предложениям
+      </div>
+      {% endif %}
+
+      <p class="hero-greeting">Привет, я</p>
+      <h1 class="hero-title">{{ site.author.name }}</h1>
+      <p class="hero-subtitle">{{ site.author.title }}</p>
+      <p class="hero-description">{{ site.description }}</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+        <a class="btn btn-secondary" href="#contact">Связаться</a>
+      </div>
+
+      <div class="hero-terminal" aria-hidden="true">
+        <div class="terminal-header">
+          <span class="terminal-dot terminal-dot--red"></span>
+          <span class="terminal-dot terminal-dot--yellow"></span>
+          <span class="terminal-dot terminal-dot--green"></span>
+          <span class="terminal-title">~/dev</span>
+        </div>
+        <pre class="terminal-body"><code><span class="t-prompt">$</span> whoami
+<span class="t-output">{{ site.author.short_name }}</span>
+<span class="t-prompt">$</span> cat skills.txt
+<span class="t-output">TypeScript · Rust · GO · Docker</span>
+<span class="t-prompt">$</span> echo $STATUS
+<span class="t-output t-accent">ready_to_build</span><span class="t-cursor">_</span></code></pre>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-wrapper">
+        <img class="avatar" src="{{ site.author.avatar | relative_url }}" alt="Аватар {{ site.author.short_name }}"
+          width="280" height="280" loading="eager">
+        <div class="avatar-glow"></div>
+      </div>
+    </div>
+  </div>
+</section>

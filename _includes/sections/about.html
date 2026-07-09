@@ -1,0 +1,40 @@
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">01</span>
+      <h2 class="section-title">Обо мне</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>{{ site.author.bio }}</p>
+        <p>
+          Студент-fullstack разработчик на третьем курсе РТУ МИРЭА.
+          Обожаю системное программирование и прикладное ПО, которому сам нахожу применение.
+          Довожу проекты до конца и открыт к новому опыту.
+        </p>
+      </div>
+
+      <div class="about-details">
+        <div class="detail-card">
+          <span class="detail-label">Локация</span>
+          <span class="detail-value">{{ site.author.location }}</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">Роль</span>
+          <span class="detail-value">{{ site.author.title }}</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">Фокус</span>
+          <span class="detail-value">System Programming · RESTful API · Прикладное ПО</span>
+        </div>
+        <div class="detail-card">
+          <span class="detail-label">Статус</span>
+          <span class="detail-value detail-value--accent">
+            {% if site.author.available %}Доступен{% else %}Занят{% endif %}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,42 @@
+- title: PassHive
+  description: >-
+    Менеджер паролей с защищенным локальным хранением чувствительных данных и 
+    генератора  паролей с рекомендательной системой на основании предпочтений пользователя и энтропии.
+  tags:
+    - С++
+    - QT
+    - SQLite
+  github: https://github.com/Undeadguy0/PassHive
+  featured: true
+
+- title: PassHiveCLI
+  description: >-
+    Независимая реализация PassHive в формате консольной утилиты.
+  tags:
+    - Rust
+    - Clap
+    - SQLite
+  github: https://github.com/Undeadguy0/PassHiveCLI
+  featured: true
+
+- title: Goper
+  description: >-
+    Консольная утилита-аналог cat с сериализацией.
+  tags:
+    - GO
+    - Cobra
+  github: https://github.com/Undeadguy0/Goper
+  featured: false
+
+- title: Портфолио
+  description: >-
+    Статический сайт-визитка на Jekyll с тёмной и светлой темой,
+    адаптивной вёрсткой и минимальными зависимостями.
+    Вы здесь :)
+  tags:
+    - Jekyll
+    - SCSS
+    - Liquid
+  url: /
+  github: https://github.com/undeadguy/portfolio
+  featured: false

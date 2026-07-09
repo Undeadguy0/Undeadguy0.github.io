@@ -1,0 +1,87 @@
+- name: HTML / CSS
+  icon: html-css
+  color: "#E34F26"
+
+- name: Sass
+  icon: sass
+  color: "#CC6699"
+
+- name: SurrealDB
+  icon: surrealdb
+  color: "#ff00c0"
+
+- name: TypeScript
+  icon: typescript
+  color: "#3178C6"
+
+- name: Vue
+  icon: vue
+  color: "#4FC08D"
+
+- name: Node.js
+  icon: nodejs
+  color: "#339933"
+
+- name: Express.js
+  icon: express
+  color: "#888888"
+
+- name: Python
+  icon: python
+  color: "#3776AB"
+
+- name: FastAPI
+  icon: fastapi
+  color: "#009688"
+
+- name: PostgreSQL
+  icon: postgresql
+  color: "#4169E1"
+
+- name: Redis
+  icon: redis
+  color: "#DC382D"
+
+- name: REST / GraphQL
+  icon: graphql
+  color: "#E10098"
+
+- name: Docker
+  icon: docker
+  color: "#2496ED"
+
+- name: Git
+  icon: git
+  color: "#F05032"
+
+- name: Linux
+  icon: linux
+  color: "#FCC624"
+
+- name: Jekyll
+  icon: jekyll
+  color: "#CC0000"
+
+- name: Rust
+  icon: rust
+  color: "#ff7e01"
+
+- name: Tokio
+  icon: tokio
+  color: "#E45858"
+
+- name: Axum
+  icon: axum
+  color: "#7C3AED"
+
+- name: Go
+  icon: go
+  color: "#00ADD8"
+
+- name: Gin-Gonic
+  icon: gin
+  color: "#00ADD8"
+
+- name: .NET
+  icon: .net
+  color: "#7f00ff"

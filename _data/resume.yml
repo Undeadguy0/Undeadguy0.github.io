@@ -1,0 +1,5 @@
+enabled: true
+file: resume.pdf
+path: /assets/files/resume.pdf
+label: Скачать резюме
+download_name: Bunto_Mikhail_Resume.pdf

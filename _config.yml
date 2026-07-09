@@ -1,0 +1,45 @@
+title: Бунто Михаил — Full-stack разработчик
+email: MikhailBunto@yandex.ru
+description: >-
+  Full-stack разработчик, студент.
+baseurl: ""
+url: ""
+lang: ru
+
+author:
+  name: Бунто Михаил (aka Undeadguy)
+  short_name: Бунто Михаил
+  title: Full-stack разработчик
+  location: Россия
+  bio: >-
+    Разрабатываю приложения от идеи до продакшена. Люблю Rust, Kotlin,
+    чистую архитектуру и инструменты, которые ускоряют работу.
+  avatar: /assets/images/avatar.svg
+  available: true
+
+telegram: Shlepa_II
+github_username: Undeadguy0
+
+navigation:
+  - title: Обо мне
+    url: "#about"
+  - title: Навыки
+    url: "#skills"
+  - title: Проекты
+    url: "#projects"
+  - title: Контакты
+    url: "#contact"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - README.md
+
+sass:
+  style: compressed
