@@ -85,3 +85,11 @@
 - name: .NET
   icon: .net
   color: "#7f00ff"
+
+- name: Nim
+  icon: Nim
+  color: "#fdca00"
+
+- name: SQLite
+  icon: SQLite
+  color: "#0001ff"
