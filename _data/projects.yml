@@ -1,3 +1,55 @@
+- title: GURPS Sheet
+  description: >-
+    Редактор листа персонажа GURPS 4e: ядро на Rust, десктоп-оболочка Tauri v2
+    и интерфейс Vue 3.
+  tags:
+    - Rust
+    - Tauri
+    - Vue
+  github: https://github.com/Undeadguy0/gurps-sheet
+  featured: true
+
+- title: gurps-mcp
+  description: >-
+    MCP-сервер и база правил GURPS 4e на SurrealDB: каталог, расчёт персонажа
+    и инструменты для ИИ-ассистентов. Бэкенд для редактора GURPS Sheet.
+  tags:
+    - Rust
+    - SurrealDB
+    - MCP
+  github: https://github.com/Undeadguy0/gurps-mcp
+  featured: true
+
+- title: campaign-mcp
+  description: >-
+    MCP-сервер для настольной ролевой кампании, которую ведёт ИИ.
+    Роли мастера, сценариста и валидатора, инструменты сцены и знаний NPC,
+    игровой календарь, мир в SurrealDB.
+  tags:
+    - Rust
+    - SurrealDB
+    - MCP
+  featured: true
+
+- title: Nimbra
+  description: >-
+    Библиотека на Nim для построения CLI-приложений в духе Cobra и Cligen:
+    вложенные команды, POSIX-разбор аргументов и декларативный макрос defineCommand.
+  tags:
+    - Nim
+  github: https://github.com/Undeadguy0/Nimbra
+  featured: true
+
+- title: svg-shaper
+  description: >-
+    Rust-библиотека и плагин Bevy 0.20: конвертация SVG в PNG точного размера
+    через rsvg-convert, с асинхронным ядром и безопасной записью файлов.
+  tags:
+    - Rust
+    - Bevy
+  github: https://github.com/Undeadguy0/svg-shaper
+  featured: false
+
 - title: PassHive
   description: >-
     Менеджер паролей с защищенным локальным хранением чувствительных данных и 
