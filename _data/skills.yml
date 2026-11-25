@@ -93,3 +93,7 @@
 - name: SQLite
   icon: SQLite
   color: "#0001ff"
+
+- name: Nushell
+  icon: Nushell
+  color: "#418700"

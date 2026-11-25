@@ -7,7 +7,7 @@
     - Tauri
     - Vue
   github: https://github.com/Undeadguy0/gurps-sheet
-  featured: true
+  featured: false
 
 - title: gurps-mcp
   description: >-
@@ -18,7 +18,7 @@
     - SurrealDB
     - MCP
   github: https://github.com/Undeadguy0/gurps-mcp
-  featured: true
+  featured: false
 
 - title: campaign-mcp
   description: >-
@@ -29,7 +29,7 @@
     - Rust
     - SurrealDB
     - MCP
-  featured: true
+  featured: false
 
 - title: Nimbra
   description: >-
@@ -38,7 +38,7 @@
   tags:
     - Nim
   github: https://github.com/Undeadguy0/Nimbra
-  featured: true
+  featured: false
 
 - title: svg-shaper
   description: >-
@@ -59,7 +59,7 @@
     - QT
     - SQLite
   github: https://github.com/Undeadguy0/PassHive
-  featured: true
+  featured: false
 
 - title: PassHiveCLI
   description: >-
@@ -69,7 +69,7 @@
     - Clap
     - SQLite
   github: https://github.com/Undeadguy0/PassHiveCLI
-  featured: true
+  featured: false
 
 - title: Goper
   description: >-
